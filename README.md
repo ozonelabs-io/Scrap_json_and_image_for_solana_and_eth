@@ -18,7 +18,8 @@ As example with to get tha hashlist from the metaboss "metaboss snapshot mints -
 
 After this just run the python file from the vs-code or any other.
 It will take time in downloading the json and pngs.
-
+You will get the json and png name as per its #
+for example name of the nft will be "Ozone Labs#2",then it will return as .json,2.png
 
 
 
