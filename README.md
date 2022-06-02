@@ -1,27 +1,32 @@
-# Fetch_the_Metadata_-and_Image_from_the_Hashlist_Solana
-You can get the Direct Arweave Link of The metadata and image Directly to the Build folder.
+# From this repo you can get back the nfts uploaded data from solana or eth blockchain.
 
+This is bascially a python program which can do all the above described.
+## Python module Installation
 
--->>Modules and things you needs to use it.........
-1.Python 3
-2.Json Module for python(pip install jsons)
-3.OS module for python(pip install Py-OS)
-3.Shutil module for Python(pip install pycopy-shutil)
-4.Request for Python(pip install requests)
-5.Metaboss MUst be installed(https://metaboss.rs/overview.html)
+Use the NPM  to install these modules.
 
-Steps:
-From Metaboss or magiceden hashlist tool get the hashlist as json file and replace the hashlist.json file ofr content inside it.
-As example with to get tha hashlist from the metaboss "metaboss snapshot mints -c 4G964YZ8XWG9VQRuchqDURcghzTSJg4PNrJ2fzzf4n4E -o snapshot.json -t 120"
+1. Install **Shutil** Modules
 
+```bash
+pip install shutil
+```
+2. Install **Colorama** Modules
 
+```bash
+pip install colorama
+```
+3. Install **requests** Modules
 
-After this just run the python file from the vs-code or any other.
-It will take time in downloading the json and pngs.
-You will get the json and png name as per its #
-for example name of the nft will be "Ozone Labs#2",then it will return as .json,2.png
+```bash
+pip install requests
+```
+4. Install **subprocess** Modules
 
+```bash
+pip install subprocess.run
+```
 
+## Usage
 
 
 
